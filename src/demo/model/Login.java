@@ -19,7 +19,7 @@ public class Login implements Action, ModelDriven<LoginBean>,Preparable{
 		System.out.println("user name " + bean.getUsername());
 		System.out.println("password " + bean.getPwd());
 		
-		
+		System.out.println("hello GitHub");
 		
 		
 		return "success";
