@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="demo.pojo.RegisterPojo" table="Register">
+		<!-- <id name="rollNo">
+			<generator class="increment"></generator>
+		</id> 
+		<property name="username"></property>-->
+		<id name="username">
+		<generator class="assigned"></generator>
+		</id>
+		<property name="pwd"></property>
+		<property name="city"></property>
+		<property name="mail"></property>
+	</class>
+</hibernate-mapping>

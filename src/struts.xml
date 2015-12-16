@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<package name="ab" extends="struts-default">
+
+		<action name="showLogin">
+		<result>login.jsp</result>
+		</action>
+		
+		<action name="showRegister">
+		<result>register.jsp</result>
+		</action>
+		
+		
+		
+		<action name="login" class="demo.model.Login" >
+			<result>home.jsp</result>
+		</action>
+		
+		<action name="register" class="demo.model.Register" >
+			<result>home.jsp</result>
+			<result name="input">register.jsp</result>
+		</action>
+		 
+
+	</package>
+
+
+
+
+
+
+</struts>
+	
+	
+	

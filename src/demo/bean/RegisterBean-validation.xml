@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+  <!DOCTYPE validators PUBLIC 
+  		"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+  		"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+  		
+  		<validators>
+  		
+  		<field name="username" >
+  		
+  		<field-validator type="requiredstring">
+  		<message>Username can't be empty.</message>
+  		</field-validator>
+  		
+  		<!-- <field-validator type="stringlength">
+  		<param length="minLength">3</param>
+  		<message>Username can't have less than 3 characters. </message>
+  		</field-validator>
+  		 -->
+  		</field>
+  		
+  		  		
+  		
+  		
+  		</validators>
